@@ -1,20 +1,4 @@
-1¡¢ÔÚgulpfile.jsÀïÅäÖÃÍ¼Æ¬Ô­Ê¼¼°Êä³öÂ·¾¶£¬Ëõ·Å±¶Êı
-2¡¢gulp-image-resizeĞèÁíÍâ°²×°GraphicsMagick»òImageMagick£¬²¢ÉèÖÃÏàÓ¦»·¾³±äÁ¿
-3¡¢PNGÍ¼Æ¬Ñ¹Ëõ²»ÀíÏë£¬¿ÉÓÃfirework½øÒ»²½Ñ¹Ëõ
-4¡¢ÔÚstyle.lessÖĞÅäÖÃÏìÓ¦Ê½µÄÍ¼Æ¬Â·¾¶
-.media-set (@path: '750/') {
-    .aa{background:url('img/@{path}aa.jpg') no-repeat 0 0;}
-    .bb{color:green;}
-}
-
-@media (min-width:100px){
-    .media-set('540/')
-}
-
-@media (min-width:200px){
-    .media-set;
-}
-
-@media (min-width:300px){
-    .media-set('1080/')
-}
+1ã€åœ¨gulpfile.jsé‡Œé…ç½®å›¾ç‰‡åŸå§‹åŠè¾“å‡ºè·¯å¾„ï¼Œç¼©æ”¾å€æ•°
+2ã€gulp-image-resizeéœ€å¦å¤–å®‰è£…GraphicsMagickæˆ–ImageMagickï¼Œå¹¶è®¾ç½®ç›¸åº”ç¯å¢ƒå˜é‡
+3ã€PNGå›¾ç‰‡å‹ç¼©ä¸ç†æƒ³ï¼Œå¯ç”¨fireworkè¿›ä¸€æ­¥å‹ç¼©
+4ã€åœ¨style.lessä¸­é…ç½®å“åº”å¼çš„å›¾ç‰‡è·¯å¾„
