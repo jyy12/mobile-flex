@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+/****************************   demo  ************************************************************************************************************************/
+
+
+@rem: 20rem ;   /*  1rem对应的像数  */
+
+.demo{border:10px solid red;width:300/@rem;height:150/@rem;}
+
+
+
+/*  响应式图片规则  */
+.media-set (@path: '750/') {
+    .demo{background:url('img/@{path}test.jpg') no-repeat 0 0;background-size:100% 100%;}
+}
+
+/* 750 */
+@media all{
+    .media-set('750/')
+}
+/* 540 */
+@media (max-width:440px) and (-webkit-max-device-pixel-ratio: 1.25){
+    .media-set('540/')
+}
+/* 1080 */
+@media (min-width:380px) and (-webkit-min-device-pixel-ratio: 2){
+    .media-set('1080/')
+}
+
+
+
+
